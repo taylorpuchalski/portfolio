@@ -1,0 +1,114 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 22px;
+  background-color: #e8fffd; /* About */
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/* THIS PART IS PASTED FROM THE TRY IT EDITOR */
+
+
+
+.button {background-color: #c2f5f0;
+  border:4px solid darkcyan;
+  border-radius: 20px;
+  color: darkslategray;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 6px 3px;
+  cursor: pointer;} /* ABOUT */
+
+
+
+<style>
+
+
+
+
+ul {
+  list-style-type: none;
+  padding: 100;
+  overflow: hidden;
+  
+  .active {
+  background-color: #04AA6D;
+}
+  
+}
+
+ul.nav li{
+  padding: 20px 50px 0px 0px;
+
+}
+
+li a {
+  display: block;
+  color: darkslategray;
+  border: 2px solid darkcyan;
+  margin: 1px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: mediumturquoise;
+}
+ </style>
+</head>
+<body>
+
+}
+
+
+
+
+
+
+
+/* THIS PART IS PASTED FROM THE TRY IT EDITOR ^^^^ */
+
+
+/* adjust typography defaults */
+body {margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: lightcyan;}
+
+h1 {color: darkcyan;margin-bottom: 0;}
+h2 {color: #33b3a6; margin-top: 0; }
+p {color: darkslategray;}
+
+p.dashed {border-style:dashed;
+  border-width:20px;}
+
+
+ul {list-style-type: none;
+  margin: 0;
+  padding: 0;}
+
+li {float: left;}
+
+a {display: inline-block;
+padding: 8px;
+color: darkslategray;
+text-decoration: none;}
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;}
+hr {
+  border-color: darkcyan;
+}
